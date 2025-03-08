@@ -17,7 +17,7 @@ all_df['dateday'] = pd.to_datetime(all_df['dateday'])
 
 # Sidebar
 with st.sidebar:
-    st.sidebar.image("user.jpeg", caption="Profile Picture", width=250)  # Atur lebar gambar
+    st.sidebar.image('https://pin.it/2zzZ0qm40', caption="Profile Picture", width=250)  # Atur lebar gambar
     st.markdown("""
         **👤 Nama:** Rosalia Indah Dwi Putriningsih  
         **📧 Email:** [senjanindya05@gmail.com](mailto:senjanindya05@gmail.com)  
