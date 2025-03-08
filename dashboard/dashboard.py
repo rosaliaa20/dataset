@@ -8,9 +8,9 @@ import calendar
 from PIL import Image
 
 # Load dataset
-day_df = pd.read_csv('data/day_df.csv')
-hour_df = pd.read_csv('data/hour_df.csv')
-all_df = pd.read_csv('data/main_data.csv')
+day_df = pd.read_csv('https://raw.githubusercontent.com/rosaliaa20/dataset/refs/heads/main/data/day_df.csv')
+hour_df = pd.read_csv('https://raw.githubusercontent.com/rosaliaa20/dataset/refs/heads/main/data/hour_df.csv')
+all_df = pd.read_csv('https://raw.githubusercontent.com/rosaliaa20/dataset/refs/heads/main/dashboard/main_data.csv')
 
 # Convert 'dateday' to datetime
 all_df['dateday'] = pd.to_datetime(all_df['dateday'])
